@@ -13,12 +13,9 @@ public class InvertedColorsConverter {
         ImageResource outImage = new ImageResource(inImage.getWidth(), inImage.getHeight());
         for(Pixel pixel : outImage.pixels()) {
             Pixel inPixel = inImage.getPixel(pixel.getX(), pixel.getY());
-            int newRed = 255 - inPixel.getRed();
-            int newGreen = 255 - inPixel.getGreen();
-            int newBlue = 255 - inPixel.getBlue();
-            pixel.setRed(newRed);
-            pixel.setGreen(newGreen);
-            pixel.setBlue(newBlue);
+            pixel.setRed(255 - inPixel.getRed());
+            pixel.setGreen(255 - inPixel.getGreen());
+            pixel.setBlue(255 - inPixel.getBlue());
         }
         return outImage;
     }

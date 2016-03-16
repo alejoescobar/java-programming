@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=dnaString\ genomeStart\ genomeEnd1\ genomeEnd2\ genomeEnd3
+comment0.target=void\ printAll(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.params=dna\ index\ genomeEnd1\ genomeEnd2\ genomeEnd3
+comment1.target=int\ findStopIndex(java.lang.String,\ int,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=void\ testing()
+comment3.params=
+comment3.target=void\ realTesting()
+numComments=4
